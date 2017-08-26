@@ -187,3 +187,11 @@
   padding: 10px;
 }
 
+.help{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 35px;
+}
+

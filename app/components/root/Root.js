@@ -21,14 +21,6 @@ export default class Root extends React.Component {
             body: "Congratulations! You're hired!",
             date: 'Today',
             new: true
-          },
-          {
-            id: 2,
-            company: 'Amdocs',
-            title: 'Experienced Developer',
-            body: "Congratulations! You're hired!",
-            date: 'Today',
-            new: false
           }
         ],
         interviews: [
@@ -224,6 +216,7 @@ export default class Root extends React.Component {
                               job={jobObj}
                   />
                 })}
+                <div className="help"><span>Help you friends find more jobs opening</span></div>
               </div>
             </div>
           </div>

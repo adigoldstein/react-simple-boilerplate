@@ -12,9 +12,15 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px solid black;
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
   margin-left: 15px;
   padding: 7px 7px 25px 7px;
+}
+
+.interview-container:last-child {
+  border: 1px solid black;
 }
 
 .interview-details {
