@@ -17,11 +17,10 @@ export default class Job extends React.Component {
             <img className="star-img" src="../../assets/images/star.png" alt=""/>
             <span className="rank">{this.props.job.rank}</span>
           </div>
-          {/*<div className="sharethis-inline-share-buttons"></div>*/}
-          <div  data-network="facebook" className="button share-button facebook-share-button">
-            {/*<img className="share-img" src="../../assets/images/share.png" alt=""/>*/}
-            shareeeee
-          </div>
+
+
+
+          <div data-network="sharethis" className="st-custom-button"><img className="share-img" src="../../assets/images/share.png" alt=""/></div>
         </div>
 
       </div>

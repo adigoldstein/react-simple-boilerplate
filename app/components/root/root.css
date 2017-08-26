@@ -1,0 +1,178 @@
+.app {
+  background-color: #D1D1D1;
+}
+
+.top-section {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.top-box {
+  background-color: #ffffff;
+  width: 30%;
+  display: flex;
+  flex-direction:row;
+  color: darkgray;
+  border: 1px solid #DCDEE6;
+  border-radius: 8px;
+}
+
+.time ,.ip, .lang, .box-header , .box-text {
+  padding-left: 13px;
+}
+
+.time ,.ip, .lang{
+  display: inline-block;
+  font-size: 1.6rem;
+  padding-top: 30px;
+}
+
+.box-header {
+  font-size:1.6rem;
+  padding: 7px;
+  margin: 0;
+}
+
+.box-text {
+  color: dimgray;
+  margin-bottom: 7px;
+}
+
+.box-img {
+  padding: 9px;
+}
+
+.play-img {
+  height: 60px;
+}
+.ballon-img {
+  height: 70px;
+  padding-top: 5px;
+}
+.down-arr {
+  height: 80px;
+}
+
+
+/********Main*********/
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.left-column {
+  background-color: #fff;
+  margin-top: 10px;
+  margin-left: 4.5%;
+  width: 60%;
+
+}
+
+.answers-h3, .interviews-h3 {
+  color: black;
+  padding-left: 1%;
+}
+
+
+/***************Side-bar***************/
+
+.right-column {
+  background-color: #F7F7F7;
+  width: 25%;
+  margin-right: 4%;
+}
+
+.right-boxes {
+  background-color: #F2F2F2;
+  box-shadow: 0px 4px 13px 0px rgba(0,0,0,0.75);
+  margin: 10px;
+  width: 345px;
+}
+.recruitment-box {
+
+  position: relative;
+  height: 150px;
+  margin-right: 25px;
+
+}
+
+.user-img {
+  padding: 10px;
+
+}
+
+.recruitment-name {
+  display: block;
+  font-weight: bold;
+  font-size:1.15rem;
+  position: absolute;
+  top: 13px;
+  left: 85px;
+}
+
+
+.recruitment-title {
+  position: absolute;
+  top: 40px;
+  font-size:1.2rem;
+}
+
+.phone-img {
+  height: 20px;
+  position: absolute;
+  top: 100px;
+}
+
+.email-img {
+  height: 20px;
+  position: absolute;
+  top: 102px;
+  left: 186px;
+}
+
+.search-job-box {
+  height: 120px;
+}
+.search-jobs-h3 {
+  padding: 15px;
+}
+
+.job-fav {
+  padding: 25px;
+}
+
+.fav-num, .rel-num {
+  background-color: cornflowerblue;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*******Jobs***********/
+
+
+.jobs-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 60px;
+}
+
+
+.megaphone-img {
+  height: 35px;
+  padding: 30px;
+}
+
+.jobs-header h2 {
+  padding: 10px;
+}
+
