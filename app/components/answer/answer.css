@@ -23,6 +23,7 @@
 .tell-us-text {
   padding-left: 10px;
 }
+
 .company , .answer-body {
   display: inline-block;
   font-weight:bold;
@@ -44,6 +45,7 @@
   text-decoration: none;
   margin-left: 5px;
 }
+
 .tell-us {
   width: 30%;
   display: flex;

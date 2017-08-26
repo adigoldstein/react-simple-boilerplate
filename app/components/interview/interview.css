@@ -15,7 +15,6 @@
   border: 1px solid black;
   margin-left: 15px;
   padding: 7px 7px 25px 7px;
-
 }
 
 .interview-details {
@@ -36,7 +35,6 @@
 }
 
 .interview-body {
-
   width: 90%;
   display: inline-block;
 }
@@ -76,7 +74,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*background-color: #D1D1D1;*/
 }
 
 .tell-us-section {
@@ -84,9 +81,10 @@
   flex-direction: row;
   background-color: #D1D1D1;
   border-bottom: 2px solid white;
-
 }
-
+ .tell-us-text {
+   padding-top: 7px;
+ }
 .tell-us-arr {
   color: black;
   font-size: 3rem;

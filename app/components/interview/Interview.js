@@ -39,7 +39,6 @@ export default class Interview extends React.Component {
             </div>
             <span className="interview-body">{this.props.interview.body}</span>
             <span className="more-link">more</span>
-
           </div>
         </div>
         <div className="tell-us-and-schedule">
@@ -56,13 +55,8 @@ export default class Interview extends React.Component {
             />
             <img className="calendar-icon" src="../../assets/images/cal.png" alt=""/>
           </div>
-          {/*<input className="date-picker" type="text"/>*/}
-
-
         </div>
       </div>
-
-
     )
   }
 }

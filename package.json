@@ -1,7 +1,7 @@
 {
   "name": "Codex",
   "version": "1.0.0",
-  "description": "Home task ",
+  "description": "Home task , By Adi Goldstein",
   "scripts": {
     "start": "webpack-dev-server --hot --progress",
     "build": "NODE_ENV=production webpack -p --progress",

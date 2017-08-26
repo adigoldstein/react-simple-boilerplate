@@ -8,8 +8,6 @@
   margin-top: 15px;
 }
 
-
-
 .job-desc {
   font-size:1.1rem;
 }
@@ -30,7 +28,6 @@
 
 .star-img {
   padding: 20px 10px;
-
 }
 
 .rank {
@@ -41,16 +38,9 @@
 }
 
 .share-img {
-
   height: 25px;
   padding: 23px;
 }
 
 
 
-/*.sharethis-inline-share-buttons {*/
-  /*!*background-color: #F2F2F2;*!*/
-  /*background-color: yellow;*/
-  /*color: blue;*/
-  /*border: 1px solid red;*/
-/*}*/
