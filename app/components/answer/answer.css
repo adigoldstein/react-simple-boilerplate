@@ -1,0 +1,63 @@
+.env-img {
+  height: 55px;
+  padding-right: 20px;
+}
+.answer-container {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin-left:15px;
+  padding:7px;
+}
+
+.answer-details {
+  display: flex;
+  flex-direction:row;
+}
+
+.answer-text-holder {
+  width: 140%;
+}
+
+.tell-us-text {
+  padding-left: 10px;
+}
+.company , .answer-body {
+  display: inline-block;
+  font-weight:bold;
+  margin-top: 6px;
+  margin-left: 10px;
+}
+
+.answer-date {
+  color: #989A9C;
+}
+
+.answer-new {
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 0.85rem;
+  background: #E3E3E3;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.tell-us {
+  width: 30%;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  background-color: #D1D1D1;
+}
+
+.tell-us-arr {
+  color: black;
+  font-size:3rem;
+  font-weight:bold;
+}
+
+.tell-us-arr:hover {
+  cursor: pointer;
+}

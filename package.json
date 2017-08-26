@@ -1,7 +1,7 @@
 {
-  "name": "songcloud",
+  "name": "Codex",
   "version": "1.0.0",
-  "description": "FED Bootcamp 3nd project - React SPA",
+  "description": "Home task ",
   "scripts": {
     "start": "webpack-dev-server --hot --progress",
     "build": "NODE_ENV=production webpack -p --progress",
@@ -9,12 +9,14 @@
   },
   "license": "ISC",
   "dependencies": {
+    "axios": "0.16.2",
     "font-awesome": "4.7.0",
+    "moment": "2.18.1",
     "normalize.css": "6.0.0",
     "react": "15.4.2",
+    "react-datepicker": "0.53.0",
     "react-dom": "15.4.2",
-    "react-router-dom": "4.1.1",
-    "roboto-fontface": "0.7.0"
+    "react-router-dom": "4.1.1"
   },
   "devDependencies": {
     "autoprefixer": "6.7.7",

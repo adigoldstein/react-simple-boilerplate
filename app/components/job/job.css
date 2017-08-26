@@ -1,0 +1,53 @@
+.job {
+  border-bottom: 3px solid white;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size:1.2rem;
+  margin-top: 15px;
+}
+
+
+
+.job-desc {
+  font-size:1.1rem;
+}
+
+.job-desc, .job-title {
+  padding: 0 15px;
+}
+
+.job-footer {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.footer-left {
+  position: relative;
+}
+
+.star-img {
+  padding: 20px 10px;
+
+}
+
+.rank {
+  position: absolute;
+  top: 23px;
+  font-weight: bold;
+  font-size:1.2rem;
+}
+
+.share-img {
+  height: 25px;
+  padding: 21px;
+}
+
+/*.sharethis-inline-share-buttons {*/
+  /*!*background-color: #F2F2F2;*!*/
+  /*background-color: yellow;*/
+  /*color: blue;*/
+  /*border: 1px solid red;*/
+/*}*/
